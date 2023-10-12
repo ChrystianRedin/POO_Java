@@ -4,6 +4,13 @@ public class Aritmetica {
     public int numero1;
     public int numero2;
 
+    public Aritmetica(){
+    }
+    public Aritmetica(int num1, int num2){
+        this.numero1 = num1;
+        this.numero2 = num2;
+    }
+
     public void suma2Numeros(){
         System.out.println("Resultado Suma:" + (numero1+numero2));
     }
